@@ -19,6 +19,8 @@ namespace UserAdmin
         public MainWindow()
         {
             InitializeComponent();
+
+            
         }
     }
 }
