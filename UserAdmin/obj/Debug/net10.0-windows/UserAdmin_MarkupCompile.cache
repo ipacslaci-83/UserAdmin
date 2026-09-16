@@ -1,5 +1,5 @@
 ﻿UserAdmin
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_O
 D:\Tananyagok\Szoftverprogramozó\UserAdmin\UserAdmin\App.xaml
 21210481285
 
-72146961708
+5759409806
 209-1312180081
 MainWindow.xaml;Themes\PurpleWhiteTheme.xaml;
 
