@@ -26,19 +26,19 @@
                 
                 <TextBlock Text="Jelszó" FontSize="12" Foreground="{StaticResource MutedTextBrush}"
                             Margin="0,0,0,4"/>
-                <TextBox x:Name="PasswordBoxInput" />
+                <PasswordBox x:Name="PasswordBoxInput" />
 
                 <TextBlock Text="Jelszó megerősítése" FontSize="12" Foreground="{StaticResource MutedTextBrush}"
                             Margin="0,0,0,4"/>
-                <TextBox x:Name="ConfirmPasswordBox" />
+                <PasswordBox x:Name="ConfirmPasswordBox" />
 
                 <TextBlock x:Name="ErrorText" Style="{StaticResource ErrorText}" Visibility="Collapsed" 
                             Margin="0,0,0,8" />
-                <Button Content="Regisztráció" Style="{StaticResource PrimaryButton}" Margin="0,0,0,16"/>
+                <Button Content="Regisztráció" Style="{StaticResource PrimaryButton}" Margin="0,0,0,16" Click="Register_Click"/>
 
                 <StackPanel>
                     <TextBlock Text="Van már fiókod" Style="{StaticResource SubtitleText}" VerticalAlignment="Center" />
-                    <Button Content="Bejelentkezés" Style="{StaticResource LinkButton}" Margin="6,0,0,0"/>
+                    <Button Content="Bejelentkezés" Style="{StaticResource LinkButton}" Margin="6,0,0,0" Click="Login_click"/>
                 </StackPanel>
 
             </StackPanel>
